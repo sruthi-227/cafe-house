@@ -1,0 +1,172 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+header nav ul li a:hover {
+    color: #f4a261;
+}
+
+
+.home-section {
+    background: url('https://mir-s3-cdn-cf.behance.net/project_modules/disp/bf72cd22738523.5631791c3b5d0.gif') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home-section .hero h2 {
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.home-section .hero p {
+    font-size: 1.5rem;
+    color: #ddd;
+    margin-bottom: 2rem;
+}
+
+.home-section .hero .btn {
+    background-color: #f4a261;
+    color: #fff;
+    padding: 0.8rem 2rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.home-section .hero .btn:hover {
+    background-color: #e76f51;
+}
+
+
+.menu-section {
+    padding: 2rem 1rem;
+    background-color: #fff;
+    text-align: center;
+}
+img {
+    transition: transform 0.3s ease;
+  }
+  
+  img:hover {
+    transform: scale(1.2); 
+  }
+  
+
+.menu-section h2 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    background-color: #f4f4f4;
+    padding: 1.5rem;
+    margin: 1rem;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.menu-item h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    padding: 0.5px;
+}
+
+.menu-item p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+
+.about-section {
+    padding: 2rem 1rem;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.about-section h2 {
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+}
+
+.about-section p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #555;
+}
+
+
+.contact-section {
+    padding: 2rem 1rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+.contact-section h2 {
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+}
+
+.contact-section p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
